@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygenie-sdk"
+version = "0.1.1"
+authors = [
+  { name="Dana Dayan", email="your@email.com" },
+]
+description = "A Python library for programmatic access and analysis of AACR Project GENIE data"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.3",
+    "pyarrow",
+]
+
+[tool.setuptools.packages.find]
+include = ["pygenie_sdk*"]
