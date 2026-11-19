@@ -56,7 +56,7 @@ genie.plot_signature_exposure(sigprofiler_output_dir="./results")
 
 ## Citation
 
-Coming soon.
+DOI: 10.1093/bioinformatics/btag844
 
 ## License
 
